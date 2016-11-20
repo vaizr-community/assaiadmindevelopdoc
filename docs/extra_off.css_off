@@ -1,0 +1,62 @@
+body {
+    padding-top: 120px;
+}
+
+.bs-sidebar.affix {
+    position: fixed;
+    top: 130px;
+}
+
+/* navbar */
+.navbar {
+    background-image: linear-gradient(rgb(0, 151, 167),rgb(75, 151, 167),rgb(100, 151, 167));
+    padding-top: 20px;
+    height: 100px;
+    font-size:      1.33em;
+}
+
+.navbar .navbar-nav > .active{
+    background: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    background: rgb(75, 151, 167);
+}
+
+a {
+    color: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > .dropdown > a,
+.navbar .navbar-nav > .dropdown > a:hover,
+.navbar .navbar-nav > .dropdown > a:focus {
+    background: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > .dropdown.open > a,
+.navbar .navbar-nav > .dropdown.open > a:hover,
+.navbar .navbar-nav > .dropdown.open > a:focus {
+    background: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > .dropdown-menu > li > a,
+.navbar .navbar-nav > .dropdown-menu > li > a:hover,
+.navbar .navbar-nav > .dropdown-menu > li > a:focus {
+    background: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > .dropdown-menu > li > .dropdown-submenu > a,
+.navbar .navbar-nav > .dropdown-menu > li > .dropdown-submenu > a:hover,
+.navbar .navbar-nav > .dropdown-menu > li > .dropdown-submenu > a:focus {
+    background: rgb(75, 151, 167);
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    background-color: rgb(75, 151, 167);
+}
+
+

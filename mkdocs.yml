@@ -1,0 +1,203 @@
+---
+pages:
+  -
+    ? "Tutorial"
+    :
+      - ? "Tutorial Scott Tiger"
+        :
+          -
+            ? "Tutorial Scott Tiger 1 : Install the environment"
+            : index.md
+          -
+            ? "Tutorial Scott Tiger 2 : Generate a master detail"
+            : tutorial/master_detail.md
+          -
+            ? "Tutorial Scott Tiger 3 : Vaizr Dialog Blocks jQuery plugin"
+            : tutorial/add_and_edit.md
+          -
+            ? "Tutorial Scott Tiger 4 : Walk through add and edit"
+            : tutorial/add_and_edit.md
+      - ? "Tutorial Development Tools for Vaizr"
+        :
+          -
+            ? "Tutorial Tools 1 : JavaScript primer"
+            : tutorial/javascript.md
+          -
+            ? "Tutorial Tools 2 : jQuery primer"
+            : tutorial/jquery.md
+          -
+            ? "Tutorial Tools 3 : jQuery Vaizr primer"
+            : tutorial/jqueryvaizr.md
+      - ? "Tutorial Development AssaiDCMS9v"
+        :
+          -
+            ? "Tutorial A9 Development 1 : Install the environment"
+            : tutorial/A9_getting_started.md
+          -
+            ? "Tutorial A9 Development 2 : Generate a menu admin screen"
+            : tutorial/A9_create_menu_and_screen.md
+  -
+    ? "Developers Guide"
+    :
+      -
+        ? "New to platform"
+        :
+          -
+            ? "Screens, Handlers & Dialogs"
+            :
+               -
+                 ? "Search screens"
+                 : guide/beginner/search_screens.md
+               -
+                 ? "Result screen"
+                 : guide/beginner/result_screen.md
+               -
+                 ? "Master tabs and relational tabs"
+                 : guide/beginner/master_detail_tabs.md
+               -
+                 ? "Handler details"
+                 : guide/beginner/handler_details.md
+               -
+                 ? "Details dialog"
+                 : guide/beginner/details_dialog.md
+               -
+                 ? "Pop-up"
+                 : index.md
+               -
+                 ? "Dialogs"
+                 : index.md
+               -
+                 ? "Microflows (calling other screens)"
+                 : index.md
+               -
+                 ? "Default button lists"
+                 : index.md
+               -
+                 ? "Screen functionlist"
+                 : index.md
+          -
+            ? "Screen fields"
+            :
+               -
+                 ? "List of Values (LOV)"
+                 : index.md
+               -
+                 ? "checkbox"
+                 : index.md
+               -
+                 ? "Drop Down, Combo Box"
+                 : index.md
+               -
+                 ? "Date wizard"
+                 : index.md
+               -
+                 ? "Transfer data from one field to the other"
+                 : index.md
+      -
+        ? "Intermediate"
+        :
+          -
+            ? "Javascript options for list"
+            : index.md
+          -
+            ? "Javascript options for input fields"
+            : index.md
+          -
+            ? "Overview picture of frameworks"
+            : index.md
+          -
+            ? "SQL examples"
+            : index.md
+          -
+            ? "PL/SQL procedure examples"
+            : index.md
+          -
+            ? "PL/SQL function examples"
+            : index.md
+          -
+            ? "Best practices"
+            : guide/intermediate/best_practices.md
+          -
+            ? "Hooks"
+            : guide/intermediate/hooks.md
+          -
+            ? "Vaizr flow"
+            : guide/intermediate/vaizr_flow.md
+          -
+            ? "details"
+            : guide/intermediate/pre_show_existing_record.md
+            
+      -
+        ? "Master"
+        : index.md
+  -
+    ? "Reference Documentation"
+    :
+      -
+        ? "Design"
+        :
+          -
+            ? "Vaizr Architecture Overview"
+            : reference/design/vaizr_architecture_overview.md
+          -
+            ? "Assai-9 POC global design"
+            : reference/design/assai9_poc_global_design.md
+      -
+        ? "Vaizr in depth"
+        :
+          -
+            ? "Alfa Common Dialog Components"
+            : reference/acdc/index.md
+          -
+            ? "About ACDC site"
+            : reference/acdc/about.md
+      -
+        ? "Development Tools"
+        : index.md
+      -
+        ? "IDE requirements"
+        :
+          -
+            ? "JSLint"
+            : index.md
+          -
+            ? "Codenarc"
+            : index.md
+          -
+            ? "Checkstyle"
+            : index.md
+          -
+            ? "Find Bugs"
+            : index.md
+          -
+            ? "Fast build to test cycle"
+            : index.md
+      -
+        ? "3 rd party products"
+        :
+          -
+            ? "Java"
+            : reference/thirdpartyproducts/java.md
+          -
+            ? "Maven"
+            : reference/thirdpartyproducts/maven.md
+          -
+            ? "Javascript"
+            : index.md
+          -
+            ? "Groovy"
+            : reference/thirdpartyproducts/groovy.md
+          -
+            ? "Mercurial & TurtoiseHg"
+            : reference/thirdpartyproducts/mercurial_turtoisehg.md
+          -
+            ? "MKDocs"
+            : reference/thirdpartyproducts/mkdocs.md
+          -
+            ? "Python"
+            : reference/thirdpartyproducts/python.md
+  -
+    About: about.md
+site_name: Vaizr AssaiAdmin devdoc
+dev_addr: '0.0.0.0:8000'
+theme: readthedocs
