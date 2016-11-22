@@ -1,4 +1,4 @@
-# Tutorial 2 : Generate a master detail
+# Tutorial 2 : Generate as master detail
 
 # Introduction
 
